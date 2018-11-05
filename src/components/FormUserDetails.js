@@ -18,21 +18,21 @@ export class FormUserDetails extends Component {
           <AppBar title="Enter a User Details" />
           <TextField 
             hintText="Enter Your First Name" 
-            floatingLabelFixed="First Name"
+            floatingLabelText="First Name"
             onChange={handleChange('firstName')}
             defaultValue={values.firstName}
           />
           <br />
           <TextField 
             hintText="Enter Your Last Name" 
-            floatingLabelFixed="Last Name"
+            floatingLabelText="Last Name"
             onChange={handleChange('lastName')}
             defaultValue={values.lastName}
           />
           <br />
           <TextField 
             hintText="Enter Your Email" 
-            floatingLabelFixed="Email"
+            floatingLabelText="Email"
             onChange={handleChange('email')}
             defaultValue={values.email}
           />
