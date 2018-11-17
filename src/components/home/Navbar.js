@@ -7,11 +7,11 @@ export default function Navbar() {
       <div className="navbar-main">
         <div className="navbar-wrapper">
           <div className="navbar-brand">
-            <span>ShokadinuEU</span>
+            <a href="https://shokadinueu.github.io/react-cool-apps/">ShokadinuEU</a >
           </div>
           <div className="navbar-menu">
             <ul className="menu-list">
-              <li className="menu-link"><NavLink className="link" exact to="/">Home</NavLink></li>
+              <li className="menu-link"><a href="https://shokadinueu.github.io/react-cool-apps/">Home</a ></li>
               <li className="menu-link"><NavLink className="link" to="/user-form">Step Form</NavLink></li>
               <li className="menu-link"><NavLink className="link" to="/todo-app">Todo App</NavLink></li>
             </ul>

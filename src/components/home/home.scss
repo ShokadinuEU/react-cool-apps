@@ -11,11 +11,20 @@
   margin-top: 1em;
   cursor: pointer;
 }
+.navbar-brand a {
+  text-decoration: none;
+  color: #000;
+}
 
 .menu-link {
   display: inline-flex;
   list-style: none;
   padding: 0 1em;
+}
+
+.menu-link a {
+  text-decoration: none;
+  color: #000;
 }
 
 .link {

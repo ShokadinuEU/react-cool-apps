@@ -1,0 +1,39 @@
+.app-header {
+  margin-top: 0;
+  background-color: rgb(54, 189, 207);
+  padding: 0.4em;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.6em;
+}
+
+.tasks-wrapper {
+  margin-top: 5em;
+}
+
+.single-task {
+  margin: 1em auto;
+  padding: 0.8em;
+  border: 2px solid #ccc;
+  width: 60%;
+  border-radius: 10px;
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(6, 134, 134, 0.473);
+  }
+}
+
+.task-content {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.tasks-finish {
+  font-size: 1.6em;
+  color: rgb(36, 226, 11);
+  background-color: rgb(119, 117, 117);
+  width: 70%;
+  margin: 0 auto;
+  padding: 0.5em 0;
+  border-radius: 15px;
+}
