@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/react-cool-apps/static/js/runtime~main.fa4d2c91.js"
   },
   {
-    "revision": "6af8b73a147f90975b65",
-    "url": "/react-cool-apps/static/js/main.6af8b73a.chunk.js"
+    "revision": "53550ba682a4a099df8c",
+    "url": "/react-cool-apps/static/js/main.53550ba6.chunk.js"
   },
   {
     "revision": "0fb86361b533cbef4cdc",
     "url": "/react-cool-apps/static/js/1.0fb86361.chunk.js"
   },
   {
-    "revision": "6af8b73a147f90975b65",
-    "url": "/react-cool-apps/static/css/main.858f9613.chunk.css"
+    "revision": "53550ba682a4a099df8c",
+    "url": "/react-cool-apps/static/css/main.66d2d154.chunk.css"
   },
   {
-    "revision": "4ad2ee750dc7d56e505a85145ded2d84",
+    "revision": "cfca441d9c6e6531b343bb5e185c182d",
     "url": "/react-cool-apps/index.html"
   }
 ];
