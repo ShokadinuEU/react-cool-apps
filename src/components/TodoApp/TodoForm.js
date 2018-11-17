@@ -21,7 +21,7 @@ class TodoForm extends Component {
 
   render() {
     return (
-      <div>
+      <div className="tasks-form-wrapper">
         <form onSubmit={this.handleSubmit} className="new-task-form">
           <label className="task-form-label">Add new task:</label>
           <input className="task-form-input" placeholder="Enter new task for the list..." type="text" onChange={this.handleChange}  value={this.state.content} />

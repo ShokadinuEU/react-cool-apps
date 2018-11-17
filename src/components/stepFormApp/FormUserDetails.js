@@ -15,7 +15,7 @@ export class FormUserDetails extends Component {
     return (
       <MuiThemeProvider>
         <React.Fragment>
-          <AppBar title="Enter a User Details" />
+          <AppBar style={styleNavbar} title="Enter a User Details" />
           <TextField 
             hintText="Enter Your First Name" 
             floatingLabelText="First Name"
@@ -51,6 +51,14 @@ export class FormUserDetails extends Component {
 
 const styles = {
   margin: 15
+}
+
+const styleNavbar = {
+  maxWidth: '1280px',
+  margin: '0 auto',
+  padding: "0.1em 1.4em",
+  borderBottomLeftRadius: '12px',
+  borderBottomRightRadius: '12px'
 }
 
 export default FormUserDetails

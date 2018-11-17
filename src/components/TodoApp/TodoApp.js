@@ -35,8 +35,10 @@ class TodoApp extends Component {
     return (
       <div>
         <h1 className="app-header">Welcome to my Todo Daily Tasks</h1>
-        <Tasks tasks={this.state.tasks} deleteTask={this.deleteTask} />
-        <TodoForm addTask={this.addTask} />
+        <div className="todo-app-wrapper">
+          <Tasks tasks={this.state.tasks} deleteTask={this.deleteTask} />
+          <TodoForm addTask={this.addTask} />
+        </div>
       </div>
     )
   }
