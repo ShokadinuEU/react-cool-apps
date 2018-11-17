@@ -12,8 +12,8 @@ class App extends Component {
       <div>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/user-form" component={UserForm} />
+          <Route exact path="/" component={TodoApp} />
+          <Route path="/user-form" component={UserForm} />
           <Route path="/todo-app" component={TodoApp} />
         </Switch>
       </div>
