@@ -6,12 +6,12 @@ function Tasks({tasks, deleteTask}) {
     tasks.map(task => {
       return(
         <div onClick={() => {deleteTask(task.id)}} className="single-task" key={task.id}>
-          <span className="task-content">{task.task}</span>
+          <span className="task-content">{task.content}</span>
         </div>
       )
     })
   ) : (
-    <h3 className="tasks-finish">Yay.. you're good to go to work now!</h3>
+    <h3 className="tasks-finish">Yay.. you manage to complet all tasks!</h3>
     )
   return (
     <div className="tasks-wrapper">

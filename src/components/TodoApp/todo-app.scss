@@ -36,4 +36,34 @@
   margin: 0 auto;
   padding: 0.5em 0;
   border-radius: 15px;
+  margin-bottom: 2em;
+}
+
+.new-task-form {
+  background-color: #666;
+  padding: 1em;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.task-form-label {
+  display: block;
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+.task-form-input {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 7px;
+  border: 0;
+  padding: 0.4em;
+  font-size: 1.3em;
+}
+
+.task-form-input:focus {
+  border: 3px solid rgb(20, 252, 20);
+  outline: 0;
 }
